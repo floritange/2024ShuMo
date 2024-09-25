@@ -1,0 +1,7 @@
+/data
+/models
+/resources
+# /logs
+/LLMTrace.egg-info
+/data_final
+/metrics_collect

@@ -1,0 +1,5 @@
+setup.py
+shuomo.egg-info/PKG-INFO
+shuomo.egg-info/SOURCES.txt
+shuomo.egg-info/dependency_links.txt
+shuomo.egg-info/top_level.txt

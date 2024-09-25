@@ -1,0 +1,44 @@
+2024-09-21 12:20:30,515 - LLMTraceLogger - INFO -    test_id  test_dur loc_id protocol  pkt_len  bss_id  ap_name  \
+0        1        60   loc0      tcp     1500       1  model-4   
+1        1        60   loc0      tcp     1500       0  model-3   
+2        2        60   loc0      udp     1500       1  model-4   
+3        2        60   loc0      udp     1500       0  model-3   
+4        3        60   loc0      tcp     1500       1  model-4   
+
+           ap_mac ap_id  pd  ...  sta_from_sta_0_rssi  sta_from_sta_1_rssi  \
+0  6c14-6ef5-9510  ap_1 -82  ...                -86.0                  NaN   
+1  8c68-3a11-e370  ap_0 -82  ...                  NaN                -85.0   
+2  6c14-6ef5-9510  ap_1 -82  ...                -86.0                  NaN   
+3  8c68-3a11-e370  ap_0 -82  ...                  NaN                -85.0   
+4  6c14-6ef5-9510  ap_1 -82  ...                -86.0                  NaN   
+
+   nss mcs   per num_ampdu  ppdu_dur other_air_time seq_time throughput  
+0    2  11  0.02        20  0.003929        12.2236    49.14     220.01  
+1    2  11  0.03        20  0.003835         0.0000    49.74     213.32  
+2    2  11  0.01        21  0.004397         5.7018    50.85     234.82  
+3    2  11  0.01        20  0.004238         0.0000    51.50     236.47  
+4    2  11  0.01        21  0.003938        11.1750    49.98     224.00  
+
+[5 rows x 43 columns]
+2024-09-21 12:20:33,383 - 2024ShuMo - INFO -    test_id  test_dur loc_id protocol  pkt_len  bss_id  ap_name  \
+0        1        60   loc0      tcp     1500       1  model-4   
+1        1        60   loc0      tcp     1500       0  model-3   
+2        2        60   loc0      udp     1500       1  model-4   
+3        2        60   loc0      udp     1500       0  model-3   
+4        3        60   loc0      tcp     1500       1  model-4   
+
+           ap_mac ap_id  pd  ...  sta_from_sta_0_rssi  sta_from_sta_1_rssi  \
+0  6c14-6ef5-9510  ap_1 -82  ...                -86.0                  NaN   
+1  8c68-3a11-e370  ap_0 -82  ...                  NaN                -85.0   
+2  6c14-6ef5-9510  ap_1 -82  ...                -86.0                  NaN   
+3  8c68-3a11-e370  ap_0 -82  ...                  NaN                -85.0   
+4  6c14-6ef5-9510  ap_1 -82  ...                -86.0                  NaN   
+
+   nss mcs   per num_ampdu  ppdu_dur other_air_time seq_time throughput  
+0    2  11  0.02        20  0.003929        12.2236    49.14     220.01  
+1    2  11  0.03        20  0.003835         0.0000    49.74     213.32  
+2    2  11  0.01        21  0.004397         5.7018    50.85     234.82  
+3    2  11  0.01        20  0.004238         0.0000    51.50     236.47  
+4    2  11  0.01        21  0.003938        11.1750    49.98     224.00  
+
+[5 rows x 43 columns]
